@@ -15,6 +15,19 @@
  
 */
 let currentAverage = 88
-
-
+switch currentAverage {
+case 0:
+    currentAverage >= 90 && currentAverage <= 100
+    print("A")
+case 1:
+    currentAverage >= 80 && currentAverage <= 89
+case 2:
+    currentAverage >= 70 && currentAverage <= 79
+    print("C")
+case 3:
+    currentAverage >= 60 && currentAverage <= 69
+    print("D")
+default:
+    print("F")
+}
 //: [Previous](@previous)  |  page 7 of 9  |  [Next](@next)

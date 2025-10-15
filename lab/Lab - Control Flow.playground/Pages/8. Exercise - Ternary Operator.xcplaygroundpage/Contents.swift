@@ -5,15 +5,23 @@
  
  > ternary operator is a REQUIREMENT. Example is on page 58.
  */
-let number1 = 14
-let number2 = 25
-/*
+//let number1 = 14
+//let number2 = 25
+//var largest1: Int
+//largest = number1 > number2 ? number1 : number2
+
+
+ 
  let number1 = 30
  let number2 = 25
-*/
+ var largest1: Int
+ largest = number1 > number2 ? number1 : number2
+
 /*
 let number1 = 25
 let number2 = 25
+ var largest1: Int
+ largest = number1 > number2 ? number1 : number2
 */
 
 var largest: Int
