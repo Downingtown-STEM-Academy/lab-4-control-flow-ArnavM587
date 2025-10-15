@@ -7,12 +7,29 @@
  
  > Test your code with all 3 of the currentAverage values below. Make sure only 1 is uncommented at a time!
  */
+
 let targetLowerBound = 70
 let targetUpperBound = 90
-
-let currentAverage = 67
+let isAverage:Bool = false
+let isBelowAverage:Bool = false
+let isAboveAverage:Bool = false
+ 
 //let currentAverage = 85
-//let currentAverage = 95
+//let currentAverage = 59
+ //let currentAverage = 95
+//if(currentAverage >= targetLowerBound && currentAverage <= targetUpperBound){
+    //isAverage == true
+    //print("You're right on track!")
+    
+//}
+//if currentAverage <= targetLowerBound && currentAverage <= targetUpperBound{
+    //isAverage == false
+   // print("You need to study more often")
+//}
+//if currentAverage > targetLowerBound && currentAverage > targetUpperBound{
+    //isAverage==false
+    //print("You're doing great, but try to push it a bit")
+//}
 
 //insert your code here
 
